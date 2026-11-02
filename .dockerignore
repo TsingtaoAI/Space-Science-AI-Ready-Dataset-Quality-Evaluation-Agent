@@ -1,0 +1,6 @@
+*
+!requirements.txt
+!spec/
+!src/
+!agent/
+**/__pycache__

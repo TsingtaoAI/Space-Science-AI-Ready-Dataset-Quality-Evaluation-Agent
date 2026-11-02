@@ -1,0 +1,9 @@
+agentVersion: 0.9.0
+ruleVersion: 0.9.0
+specSha256: 011920ea442cde8d459892a6c73ab9eee189fb37eb09a33b630958d7f0e0db79
+runId: run-133c277f20f9e7cb
+python: 3.11.9
+platform: Linux-6.8.0-138-generic-x86_64-with-glibc2.36
+pyyaml: 6.0.2
+parallelism: 见 run_summary.json（workers、availableCpus）
+llm: 未启用（模型服务消耗 0）

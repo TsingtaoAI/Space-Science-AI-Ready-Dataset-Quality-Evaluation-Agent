@@ -1,0 +1,1351 @@
+dataset	profile	verdict	score	check	status	pass	fail	pending	na	fail_ratio	top_message
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	S06	fail	1368	195	0	1587	0.1248	事件类型汇总与事件明细不一致
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	P01	fail	3149	1	0	0	0.0003	标签引用的数据文件不存在：找不到数据文件
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	P02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	P03	pass	3149	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	P04	not_applicable	0	0	0	1		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	V01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	V02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	V03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	C01	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	C02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	C03	pending	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	M01	pending	3141	0	9	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	M02	pending	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	M03	fail	3142	8	0	0	0.0025	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	B01	pending	3149	0	1	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	B02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	N01	pending	3123	0	27	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	N02	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	N03	pending	3149	0	1	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	D01	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	D02	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	D03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	D04	not_applicable	0	0	0	1		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	R01	pass	3149	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	V04	not_applicable	0	0	0	3150		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	B03	fail	1435	127	0	1588	0.0813	目标中心落在日面以外（位置偏移）
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	B04	fail	967	1	0	2182	0.0010	目标框面积与事件像素数不符（边界被缩放）
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	C04	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	C05	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	B05	not_applicable	0	0	0	0		
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X02	pending	2340	0	809	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X03	fail	2958	192	0	0	0.0610	类别错标：与参考版本的类别不同
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X04	fail	3135	15	0	0	0.0048	漏标：参考版本中存在的标注在本版本缺失
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X05	fail	3142	8	0	0	0.0025	虚标：本版本多出参考版本中没有的标注
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X06	fail	2625	525	0	0	0.1667	位置/边界偏移：与参考版本相比几何或时间发生偏移
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X07	fail	3129	21	0	0	0.0067	声明字段与参考版本不一致
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	X08	pending	2975	0	175	0	0.0000	
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+AIA_AR_sample_2wf6w5morj	hek_image	reject	97.387025	U01	pending	0	0	1	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	S06	fail	651	912	0	1587	0.5835	事件类型汇总与事件明细不一致
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	P01	fail	3117	33	0	0	0.0105	标签引用的数据文件不存在：找不到数据文件
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	P02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	P03	pass	3117	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	P04	not_applicable	0	0	0	1		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	V01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	V02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	V03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	C01	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	C02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	C03	pending	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	M01	pending	3143	0	7	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	M02	pending	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	M03	fail	3004	146	0	0	0.0463	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	B01	pending	3136	0	14	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	B02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	N01	pending	3124	0	26	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	N02	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	N03	pending	3117	0	33	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	D01	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	D02	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	D03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	D04	not_applicable	0	0	0	1		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	R01	pass	3117	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	V04	not_applicable	0	0	0	3150		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	B03	fail	1183	378	0	1589	0.2422	目标中心落在日面以外（位置偏移）
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	B04	fail	673	292	0	2185	0.3026	目标框面积与事件像素数不符（边界被缩放）
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	C04	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	C05	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	B05	not_applicable	0	0	0	0		
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X02	pending	983	0	2134	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X03	fail	2251	899	0	0	0.2854	类别错标：与参考版本的类别不同
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X04	fail	2886	264	0	0	0.0838	漏标：参考版本中存在的标注在本版本缺失
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X05	fail	3004	146	0	0	0.0463	虚标：本版本多出参考版本中没有的标注
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X06	fail	1826	1324	0	0	0.4203	位置/边界偏移：与参考版本相比几何或时间发生偏移
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X07	fail	2832	318	0	0	0.1010	声明字段与参考版本不一致
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	X08	pending	2321	0	829	0	0.0000	
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+AIA_AR_sample_k0msxmcgew	hek_image	reject	86.451209	U01	pending	0	0	1	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	S06	fail	1546	17	0	1587	0.0109	事件类型汇总与事件明细不一致
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	P01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	P02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	P03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	P04	not_applicable	0	0	0	1		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	V01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	V02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	V03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	C01	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	C02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	C03	pending	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	M01	pending	3141	0	9	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	M02	pending	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	M03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	B01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	B02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	N01	pending	3123	0	27	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	N02	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	N03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	D01	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	D02	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	D03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	D04	not_applicable	0	0	0	1		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	R01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	V04	not_applicable	0	0	0	3150		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	B03	fail	1507	56	0	1587	0.0358	目标中心落在日面以外（位置偏移）
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	B04	fail	968	1	0	2181	0.0010	目标框面积与事件像素数不符（边界被缩放）
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	C04	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	C05	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	B05	not_applicable	0	0	0	0		
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X02	pending	2846	0	304	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X03	fail	3133	17	0	0	0.0054	类别错标：与参考版本的类别不同
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X06	fail	2977	173	0	0	0.0549	位置/边界偏移：与参考版本相比几何或时间发生偏移
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X07	pending	3149	0	1	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	X08	pending	3125	0	25	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	G01	pass	1	0	0	0	0.0000	
+AIA_AR_sample_mugm2urshy	hek_image	reject	99.249619	U01	pending	0	0	1	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	S06	fail	992	571	0	1587	0.3653	事件类型汇总与事件明细不一致
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	P01	fail	3135	15	0	0	0.0048	标签引用的数据文件不存在：找不到数据文件
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	P02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	P03	pass	3135	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	P04	not_applicable	0	0	0	1		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	V01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	V02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	V03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	C01	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	C02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	C03	pending	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	M01	pending	3142	0	8	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	M02	pending	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	M03	fail	3085	65	0	0	0.0206	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	B01	pending	3147	0	3	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	B02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	N01	pending	3123	0	27	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	N02	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	N03	pending	3135	0	15	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	D01	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	D02	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	D03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	D04	not_applicable	0	0	0	1		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	R01	pass	3135	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	V04	not_applicable	0	0	0	3150		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	B03	fail	1325	237	0	1588	0.1517	目标中心落在日面以外（位置偏移）
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	B04	fail	861	107	0	2182	0.1105	目标框面积与事件像素数不符（边界被缩放）
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	C04	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	C05	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	B05	not_applicable	0	0	0	0		
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X02	pending	1719	0	1416	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X03	fail	2588	562	0	0	0.1784	类别错标：与参考版本的类别不同
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X04	fail	3030	120	0	0	0.0381	漏标：参考版本中存在的标注在本版本缺失
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X05	fail	3085	65	0	0	0.0206	虚标：本版本多出参考版本中没有的标注
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X06	fail	2139	1011	0	0	0.3210	位置/边界偏移：与参考版本相比几何或时间发生偏移
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X07	fail	2981	169	0	0	0.0537	声明字段与参考版本不一致
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	X08	pending	2633	0	517	0	0.0000	
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+AIA_AR_sample_vc4ox5kxjo	hek_image	reject	92.44228	U01	pending	0	0	1	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	S06	pass	1563	0	0	1587	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	P01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	P02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	P03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	V01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	V02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	V03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	C01	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	C02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	C03	pending	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	M01	pending	3141	0	9	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	M02	pending	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	M03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	B01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	B02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	N01	pending	3123	0	27	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	N02	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	N03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	D01	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	D02	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	D03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	R01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	V04	not_applicable	0	0	0	3150		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	B03	pass	1563	0	0	1587	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	B04	pass	969	0	0	2181	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	C04	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X01	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X02	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X03	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X04	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X05	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X06	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X07	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	X08	pass	3150	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	G01	pass	1	0	0	0	0.0000	
+AIA_AR_sample_zar6xq3d6q	hek_image	accept_with_marks	100.0	U01	pending	0	0	1	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S04	pending	10666	0	124	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S05	fail	10783	7	0	0	0.0006	事件计数与事件列表长度不一致
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	S06	pending	0	0	7	10783		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	P01	fail	10789	1	0	0	0.0001	标签引用的数据文件不存在：找不到数据文件
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	P02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	P03	pass	10789	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	P04	not_applicable	0	0	0	1		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	V01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	V02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	V03	pending	10772	0	18	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	C01	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	C02	pending	10783	0	7	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	C03	pending	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	M01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	M02	pending	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	M03	pending	0	0	7	10783		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	B01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	B02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	N01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	N02	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	N03	pending	10789	0	1	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	D01	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	D02	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	D03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	D04	not_applicable	0	0	0	1		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	R01	pass	10789	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	V04	pending	2489	0	48	8253	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	B03	not_applicable	0	0	0	10790		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	B04	not_applicable	0	0	0	10790		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	C04	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	C05	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	B05	not_applicable	0	0	0	0		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X02	pass	10789	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X04	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X06	fail	10501	289	0	0	0.0268	位置/边界偏移：与参考版本相比几何或时间发生偏移
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X07	pass	10790	0	0	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	X08	pending	10501	0	289	0	0.0000	
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	G01	not_applicable	0	0	0	1		
+CME_C2_sample_1qiaedt0hl	hek_image	reject	99.736797	U01	pending	0	0	1	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S04	pending	10666	0	124	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S05	fail	9784	1006	0	0	0.0932	事件计数与事件列表长度不一致
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	S06	pending	0	0	1006	9784		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	P01	fail	10685	105	0	0	0.0097	标签引用的数据文件不存在：找不到数据文件
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	P02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	P03	pass	10685	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	P04	not_applicable	0	0	0	1		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	V01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	V02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	V03	pending	10611	0	179	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	C01	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	C02	pending	9784	0	1006	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	C03	pending	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	M01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	M02	pending	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	M03	pending	0	0	1006	9784		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	B01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	B02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	N01	pending	10789	0	1	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	N02	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	N03	pending	10685	0	105	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	D01	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	D02	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	D03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	D04	not_applicable	0	0	0	1		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	R01	pass	10685	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	V04	pending	1136	0	1903	7751	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	B03	not_applicable	0	0	0	10790		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	B04	not_applicable	0	0	0	10790		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	C04	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	C05	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	B05	not_applicable	0	0	0	0		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X02	pass	10685	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X04	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X06	fail	7648	3142	0	0	0.2912	位置/边界偏移：偏移幅度超出同一目标的匹配阈值
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X07	pass	10790	0	0	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	X08	pending	10488	0	302	0	0.0000	
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	G01	not_applicable	0	0	0	1		
+CME_C2_sample_di7yj9fvs2	hek_image	reject	93.902526	U01	pending	0	0	1	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S04	pending	10666	0	124	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S05	fail	10674	116	0	0	0.0108	事件计数与事件列表长度不一致
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	S06	pending	0	0	116	10674		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	P01	fail	10781	9	0	0	0.0008	标签引用的数据文件不存在：找不到数据文件
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	P02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	P03	pass	10781	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	P04	not_applicable	0	0	0	1		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	V01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	V02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	V03	pending	10724	0	66	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	C01	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	C02	pending	10674	0	116	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	C03	pending	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	M01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	M02	pending	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	M03	pending	0	0	116	10674		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	B01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	B02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	N01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	N02	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	N03	pending	10781	0	9	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	D01	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	D02	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	D03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	D04	not_applicable	0	0	0	1		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	R01	pass	10781	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	V04	pending	2115	0	478	8197	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	B03	not_applicable	0	0	0	10790		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	B04	not_applicable	0	0	0	10790		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	C04	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	C05	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	B05	not_applicable	0	0	0	0		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X02	pass	10781	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X04	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X06	fail	9700	1090	0	0	0.1010	位置/边界偏移：与参考版本相比几何或时间发生偏移
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X07	pass	10790	0	0	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	X08	pending	9700	0	1090	0	0.0000	
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	G01	not_applicable	0	0	0	1		
+CME_C2_sample_f87nej586w	hek_image	reject	98.529183	U01	pending	0	0	1	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S04	pending	10666	0	124	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	S06	not_applicable	0	0	0	10790		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	P01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	P02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	P03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	V01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	V02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	V03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	C01	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	C02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	C03	pending	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	M01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	M02	pending	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	M03	not_applicable	0	0	0	10790		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	B01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	B02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	N01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	N02	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	N03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	D01	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	D02	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	D03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	R01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	V04	pass	2534	0	0	8256	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	B03	not_applicable	0	0	0	10790		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	B04	not_applicable	0	0	0	10790		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	C04	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X04	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X06	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X07	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	X08	pass	10790	0	0	0	0.0000	
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	G01	not_applicable	0	0	0	1		
+CME_C2_sample_g8x0hw7reo	hek_image	accept_with_marks	100.0	U01	pending	0	0	1	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S04	pending	10666	0	124	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S05	fail	10313	477	0	0	0.0442	事件计数与事件列表长度不一致
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	S06	pending	0	0	477	10313		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	P01	fail	10753	37	0	0	0.0034	标签引用的数据文件不存在：找不到数据文件
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	P02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	P03	pass	10753	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	P04	not_applicable	0	0	0	1		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	V01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	V02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	V03	pending	10663	0	127	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	C01	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	C02	pending	10313	0	477	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	C03	pending	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	M01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	M02	pending	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	M03	pending	0	0	477	10313		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	B01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	B02	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	N01	pending	10788	0	2	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	N02	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	N03	pending	10753	0	37	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	D01	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	D02	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	D03	pending	10666	0	124	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	D04	not_applicable	0	0	0	1		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	R01	pass	10753	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	V04	pending	1614	0	1179	7997	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	B03	not_applicable	0	0	0	10790		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	B04	not_applicable	0	0	0	10790		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	C04	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	C05	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	B05	not_applicable	0	0	0	0		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X01	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X02	pass	10753	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X03	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X04	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X05	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X06	fail	8621	2169	0	0	0.2010	位置/边界偏移：偏移幅度超出同一目标的匹配阈值
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X07	pass	10790	0	0	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	X08	pending	9673	0	1117	0	0.0000	
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	G01	not_applicable	0	0	0	1		
+CME_C2_sample_rh0bi59spo	hek_image	reject	96.075367	U01	pending	0	0	1	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S05	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	S06	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	P01	fail	284	2	0	0	0.0070	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	P02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	P03	pass	284	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	P04	not_applicable	0	0	0	1		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	V01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	V02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	V03	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	C01	fail	280	6	0	0	0.0210	类别不在声明的类别表内
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	C02	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	C03	pending	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	M01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	M02	pending	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	M03	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	B01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	B02	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	N01	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	N02	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	N03	pending	284	0	2	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	D01	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	D02	fail	283	1	2	0	0.0035	声明的图像尺寸与文件不一致
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	D03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	D04	not_applicable	0	0	0	1		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	R01	pass	284	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	V04	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	B03	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	B04	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	C04	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	C05	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	B05	not_applicable	0	0	0	0		
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X02	pass	284	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X04	fail	285	1	0	0	0.0035	漏标：参考版本中存在的标注在本版本缺失
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X05	fail	283	3	0	0	0.0105	虚标：本版本多出参考版本中没有的标注
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X06	fail	281	5	0	0	0.0175	位置/边界偏移：与参考版本相比几何或时间发生偏移
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X07	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	X08	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+DMSP_SSUSI_597ibtdjkk	aurora_shapes	reject	99.209866	U01	pending	0	0	1	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S05	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	S06	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	P01	fail	255	31	0	0	0.1084	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	P02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	P03	pass	255	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	P04	not_applicable	0	0	0	1		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	V01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	V02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	V03	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	C01	fail	229	57	0	0	0.1993	类别不在声明的类别表内
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	C02	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	C03	pending	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	M01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	M02	pending	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	M03	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	B01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	B02	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	N01	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	N02	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	N03	pending	255	0	31	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	D01	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	D02	fail	203	52	31	0	0.2039	声明的图像尺寸与文件不一致
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	D03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	D04	not_applicable	0	0	0	1		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	R01	pass	255	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	V04	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	B03	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	B04	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	C04	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	C05	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	B05	not_applicable	0	0	0	0		
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X02	pass	255	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X04	fail	247	39	0	0	0.1364	漏标：参考版本中存在的标注在本版本缺失
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X05	fail	265	21	0	0	0.0734	虚标：本版本多出参考版本中没有的标注
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X06	fail	243	43	0	0	0.1503	位置/边界偏移：与参考版本相比几何或时间发生偏移
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X07	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	X08	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+DMSP_SSUSI_96mfosyutr	aurora_shapes	reject	89.278656	U01	pending	0	0	1	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S05	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	S06	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	P01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	P02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	P03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	V01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	V02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	V03	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	C01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	C02	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	C03	pending	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	M01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	M02	pending	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	M03	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	B01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	B02	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	N01	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	N02	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	N03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	D01	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	D02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	D03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	R01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	V04	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	B03	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	B04	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	C04	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X05	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X06	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X07	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	X08	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	G01	pass	1	0	0	0	0.0000	
+DMSP_SSUSI_aaue04ws6s	aurora_shapes	accept_with_marks	100.0	U01	pending	0	0	1	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S05	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	S06	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	P01	fail	264	22	0	0	0.0769	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	P02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	P03	pass	264	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	P04	not_applicable	0	0	0	1		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	V01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	V02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	V03	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	C01	fail	248	38	0	0	0.1329	类别不在声明的类别表内
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	C02	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	C03	pending	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	M01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	M02	pending	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	M03	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	B01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	B02	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	N01	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	N02	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	N03	pending	264	0	22	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	D01	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	D02	fail	238	26	22	0	0.0985	声明的图像尺寸与文件不一致
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	D03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	D04	not_applicable	0	0	0	1		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	R01	pass	264	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	V04	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	B03	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	B04	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	C04	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	C05	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	B05	not_applicable	0	0	0	0		
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X02	pass	264	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X04	fail	260	26	0	0	0.0909	漏标：参考版本中存在的标注在本版本缺失
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X05	fail	274	12	0	0	0.0420	虚标：本版本多出参考版本中没有的标注
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X06	fail	258	28	0	0	0.0979	位置/边界偏移：与参考版本相比几何或时间发生偏移
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X07	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	X08	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+DMSP_SSUSI_gki16zmufc	aurora_shapes	reject	93.157277	U01	pending	0	0	1	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S04	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S05	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	S06	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	P01	fail	272	14	0	0	0.0490	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	P02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	P03	pass	272	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	P04	not_applicable	0	0	0	1		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	V01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	V02	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	V03	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	C01	fail	265	21	0	0	0.0734	类别不在声明的类别表内
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	C02	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	C03	pending	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	M01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	M02	pending	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	M03	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	B01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	B02	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	N01	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	N02	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	N03	pending	272	0	14	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	D01	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	D02	fail	255	17	14	0	0.0625	声明的图像尺寸与文件不一致
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	D03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	D04	not_applicable	0	0	0	1		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	R01	pass	272	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	V04	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	B03	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	B04	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	C04	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	C05	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	B05	not_applicable	0	0	0	0		
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X01	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X02	pass	272	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X03	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X04	fail	279	7	0	0	0.0245	漏标：参考版本中存在的标注在本版本缺失
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X05	fail	281	5	0	0	0.0175	虚标：本版本多出参考版本中没有的标注
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X06	fail	270	16	0	0	0.0559	位置/边界偏移：与参考版本相比几何或时间发生偏移
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X07	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	X08	pass	286	0	0	0	0.0000	
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+DMSP_SSUSI_n18qlzffue	aurora_shapes	reject	96.531016	U01	pending	0	0	1	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S05	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	S06	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	P01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	P02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	P03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	V01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	V02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	V03	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	C01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	C02	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	C03	pending	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	M01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	M02	pending	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	M03	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	B01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	B02	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	N01	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	N02	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	N03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	D01	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	D02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	D03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	R01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	V04	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	B03	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	B04	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	C04	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X05	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X06	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X07	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	X08	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	G01	pass	1	0	0	0	0.0000	
+EPB_seg_sample_84baza8n1b	epb_segmentation	accept_with_marks	100.0	U01	pending	0	0	1	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S05	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	S06	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	P01	fail	1312	38	0	0	0.0281	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	P02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	P03	pass	1312	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	P04	not_applicable	0	0	0	1		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	V01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	V02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	V03	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	C01	fail	1222	128	0	0	0.0948	类别不在声明的类别表内
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	C02	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	C03	pending	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	M01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	M02	pending	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	M03	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	B01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	B02	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	N01	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	N02	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	N03	pending	1312	0	38	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	D01	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	D02	fail	1242	70	38	0	0.0534	声明的图像尺寸与文件不一致
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	D03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	D04	not_applicable	0	0	0	1		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	R01	pass	1312	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	V04	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	B03	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	B04	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	C04	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	C05	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	B05	not_applicable	0	0	0	0		
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X02	pass	1312	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X05	fail	1283	67	0	0	0.0496	虚标：本版本多出参考版本中没有的标注
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X06	fail	1257	93	0	0	0.0689	位置/边界偏移：与参考版本相比几何或时间发生偏移
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X07	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	X08	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+EPB_seg_sample_fkouu8688g	epb_segmentation	reject	96.839021	U01	pending	0	0	1	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S05	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	S06	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	P01	fail	1339	11	0	0	0.0081	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	P02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	P03	pass	1339	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	P04	not_applicable	0	0	0	1		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	V01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	V02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	V03	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	C01	fail	1322	28	0	0	0.0207	类别不在声明的类别表内
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	C02	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	C03	pending	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	M01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	M02	pending	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	M03	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	B01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	B02	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	N01	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	N02	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	N03	pending	1339	0	11	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	D01	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	D02	fail	1321	18	11	0	0.0134	声明的图像尺寸与文件不一致
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	D03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	D04	not_applicable	0	0	0	1		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	R01	pass	1339	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	V04	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	B03	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	B04	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	C04	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	C05	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	B05	not_applicable	0	0	0	0		
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X02	pass	1339	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X05	fail	1335	15	0	0	0.0111	虚标：本版本多出参考版本中没有的标注
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X06	fail	1330	20	0	0	0.0148	位置/边界偏移：与参考版本相比几何或时间发生偏移
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X07	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	X08	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+EPB_seg_sample_ipn1zhogbf	epb_segmentation	reject	99.260228	U01	pending	0	0	1	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S05	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	S06	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	P01	fail	1223	127	0	0	0.0941	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	P02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	P03	pass	1223	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	P04	not_applicable	0	0	0	1		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	V01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	V02	fail	1349	1	0	0	0.0007	多边形面积为 0
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	V03	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	C01	fail	969	381	0	0	0.2822	类别不在声明的类别表内
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	C02	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	C03	pending	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	M01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	M02	pending	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	M03	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	B01	pending	1349	0	1	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	B02	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	N01	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	N02	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	N03	pending	1223	0	127	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	D01	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	D02	fail	1001	222	127	0	0.1815	声明的图像尺寸与文件不一致
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	D03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	D04	not_applicable	0	0	0	1		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	R01	pass	1223	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	V04	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	B03	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	B04	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	C04	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	C05	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	B05	not_applicable	0	0	0	0		
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X02	pass	1223	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X05	fail	1157	193	0	0	0.1430	虚标：本版本多出参考版本中没有的标注
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X06	fail	1072	278	0	0	0.2059	位置/边界偏移：与参考版本相比几何或时间发生偏移
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X07	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	X08	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+EPB_seg_sample_pb72bbq4bp	epb_segmentation	reject	90.113578	U01	pending	0	0	1	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S05	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	S06	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	P01	fail	1265	85	0	0	0.0630	标签引用的数据文件不存在：找不到同名（不含扩展名）数据文件
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	P02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	P03	pass	1265	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	P04	not_applicable	0	0	0	1		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	V01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	V02	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	V03	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	C01	fail	1097	253	0	0	0.1874	类别不在声明的类别表内
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	C02	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	C03	pending	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	M01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	M02	pending	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	M03	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	B01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	B02	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	N01	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	N02	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	N03	pending	1265	0	85	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	D01	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	D02	fail	1118	147	85	0	0.1162	声明的图像尺寸与文件不一致
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	D03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	D04	not_applicable	0	0	0	1		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	R01	pass	1265	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	V04	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	B03	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	B04	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	C04	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	C05	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	B05	not_applicable	0	0	0	0		
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X01	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X02	pass	1265	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X03	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X04	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X05	fail	1223	127	0	0	0.0941	虚标：本版本多出参考版本中没有的标注
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X06	fail	1165	185	0	0	0.1370	位置/边界偏移：与参考版本相比几何或时间发生偏移
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X07	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	X08	pass	1350	0	0	0	0.0000	
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+EPB_seg_sample_tpz0i4ke8d	epb_segmentation	reject	93.572877	U01	pending	0	0	1	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S04	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	S06	fail	697	854	0	1466	0.5506	事件类型汇总与事件明细不一致
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	P01	fail	2986	31	0	0	0.0103	标签引用的数据文件不存在：找不到数据文件
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	P02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	P03	pass	2986	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	P04	not_applicable	0	0	0	1		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	V01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	V02	fail	3016	1	0	0	0.0003	多边形面积为 0
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	V03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	C01	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	C02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	C03	pending	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	M01	pending	3008	0	9	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	M02	pending	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	M03	fail	2874	143	0	0	0.0474	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	B01	pending	3005	0	12	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	B02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	N01	pending	2929	0	88	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	N02	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	N03	pending	2986	0	31	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	D01	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	D02	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	D03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	D04	not_applicable	0	0	0	1		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	R01	pass	2986	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	V04	not_applicable	0	0	0	3017		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	B03	fail	1374	9	159	1475	0.0065	目标中心落在日面以外（位置偏移）
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	B04	fail	652	254	1	2110	0.2804	目标框面积与事件像素数不符（边界被缩放）
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	C04	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	C05	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	B05	not_applicable	0	0	0	0		
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X02	pending	940	0	2046	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X03	fail	2170	847	0	0	0.2807	类别错标：与参考版本的类别不同
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X04	fail	2747	270	0	0	0.0895	漏标：参考版本中存在的标注在本版本缺失
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X05	fail	2870	147	0	0	0.0487	虚标：本版本多出参考版本中没有的标注
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X06	fail	1706	1311	0	0	0.4345	位置/边界偏移：与参考版本相比几何或时间发生偏移
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X07	fail	2690	327	0	0	0.1084	声明字段与参考版本不一致
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	X08	pending	2213	0	804	0	0.0000	
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+HMI_AR_sample_6toksh7wns	hek_image	reject	86.908813	U01	pending	0	0	1	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S04	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	S06	pass	1551	0	0	1466	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	P01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	P02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	P03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	V01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	V02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	V03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	C01	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	C02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	C03	pending	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	M01	pending	2999	0	18	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	M02	pending	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	M03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	B01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	B02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	N01	pending	2927	0	90	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	N02	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	N03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	D01	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	D02	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	D03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	R01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	V04	not_applicable	0	0	0	3017		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	B03	pending	1386	0	158	1473	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	B04	pass	909	0	0	2108	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	C04	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X04	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X06	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X07	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	X08	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	G01	pass	1	0	0	0	0.0000	
+HMI_AR_sample_6yaatkycjv	hek_image	accept_with_marks	100.0	U01	pending	0	0	1	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S04	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	S06	fail	1535	16	0	1466	0.0103	事件类型汇总与事件明细不一致
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	P01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	P02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	P03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	P04	not_applicable	0	0	0	1		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	V01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	V02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	V03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	C01	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	C02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	C03	pending	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	M01	pending	2999	0	18	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	M02	pending	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	M03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	B01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	B02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	N01	pending	2927	0	90	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	N02	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	N03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	D01	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	D02	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	D03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	D04	not_applicable	0	0	0	1		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	R01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	V04	not_applicable	0	0	0	3017		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	B03	fail	1383	3	158	1473	0.0022	目标中心落在日面以外（位置偏移）
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	B04	pass	909	0	0	2108	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	C04	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	C05	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	B05	not_applicable	0	0	0	0		
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X02	pending	2722	0	295	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X03	fail	3001	16	0	0	0.0053	类别错标：与参考版本的类别不同
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X04	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X06	fail	2845	172	0	0	0.0570	位置/边界偏移：与参考版本相比几何或时间发生偏移
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X07	pending	3016	0	1	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	X08	pending	2994	0	23	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	G01	pass	1	0	0	0	0.0000	
+HMI_AR_sample_d5xpad9rws	hek_image	reject	99.317319	U01	pending	0	0	1	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S04	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	S06	fail	1020	531	0	1466	0.3424	事件类型汇总与事件明细不一致
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	P01	fail	3006	11	0	0	0.0036	标签引用的数据文件不存在：找不到数据文件
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	P02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	P03	pass	3006	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	P04	not_applicable	0	0	0	1		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	V01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	V02	fail	3013	4	0	0	0.0013	多边形面积为 0
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	V03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	C01	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	C02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	C03	pending	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	M01	pending	3001	0	16	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	M02	pending	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	M03	fail	2961	56	0	0	0.0186	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	B01	pending	3006	0	11	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	B02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	N01	pending	2927	0	90	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	N02	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	N03	pending	3006	0	11	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	D01	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	D02	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	D03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	D04	not_applicable	0	0	0	1		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	R01	pass	3006	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	V04	not_applicable	0	0	0	3017		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	B03	fail	1375	7	161	1474	0.0051	目标中心落在日面以外（位置偏移）
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	B04	fail	821	86	4	2106	0.0948	目标框面积与事件像素数不符（边界被缩放）
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	C04	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	C05	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	B05	not_applicable	0	0	0	0		
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X02	pending	1649	0	1357	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X03	fail	2489	528	0	0	0.1750	类别错标：与参考版本的类别不同
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X04	fail	2903	114	0	0	0.0378	漏标：参考版本中存在的标注在本版本缺失
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X05	fail	2957	60	0	0	0.0199	虚标：本版本多出参考版本中没有的标注
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X06	fail	2012	1005	0	0	0.3331	位置/边界偏移：与参考版本相比几何或时间发生偏移
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X07	fail	2872	145	0	0	0.0481	声明字段与参考版本不一致
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	X08	pending	2531	0	486	0	0.0000	
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+HMI_AR_sample_mn7gjm61c0	hek_image	reject	92.833451	U01	pending	0	0	1	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S04	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S05	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	S06	fail	1374	177	0	1466	0.1141	事件类型汇总与事件明细不一致
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	P01	fail	3013	4	0	0	0.0013	标签引用的数据文件不存在：找不到数据文件
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	P02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	P03	pass	3013	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	P04	not_applicable	0	0	0	1		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	V01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	V02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	V03	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	C01	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	C02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	C03	pending	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	M01	pending	3000	0	17	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	M02	pending	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	M03	fail	3012	5	0	0	0.0017	事件身份标识缺失或格式与同批不符（疑似虚构标注）
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	B01	pending	3014	0	3	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	B02	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	N01	pending	2927	0	90	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	N02	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	N03	pending	3013	0	4	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	D01	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	D02	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	D03	pending	2762	0	255	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	D04	not_applicable	0	0	0	1		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	R01	pass	3013	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	V04	not_applicable	0	0	0	3017		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	B03	fail	1384	2	158	1473	0.0014	目标中心落在日面以外（位置偏移）
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	B04	fail	903	6	0	2108	0.0066	目标框面积与事件像素数不符（边界被缩放）
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	C04	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	C05	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	B05	not_applicable	0	0	0	0		
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X01	pass	3017	0	0	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X02	pending	2280	0	733	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X03	fail	2840	177	0	0	0.0587	类别错标：与参考版本的类别不同
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X04	fail	2998	19	0	0	0.0063	漏标：参考版本中存在的标注在本版本缺失
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X05	fail	3006	11	0	0	0.0036	虚标：本版本多出参考版本中没有的标注
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X06	fail	2497	520	0	0	0.1724	位置/边界偏移：与参考版本相比几何或时间发生偏移
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X07	fail	3001	16	0	0	0.0053	声明字段与参考版本不一致
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	X08	pending	2871	0	146	0	0.0000	
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	G01	fail	0	1	0	0	1.0000	类别分布与同源版本参考分布偏离
+HMI_AR_sample_ykt33mm8o2	hek_image	reject	97.473065	U01	pending	0	0	1	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S02	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S03	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S04	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S05	pending	5477	0	643	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	S06	pending	2567	0	643	2910	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	P01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	P02	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	P03	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	P04	not_applicable	0	0	0	1		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	V01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	V02	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	V03	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	C01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	C02	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	C03	pending	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	M01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	M02	pending	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	M03	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	B01	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	B02	pending	5687	0	433	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	N01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	N02	pending	4889	0	1231	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	N03	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	D01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	D02	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	D03	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	D04	not_applicable	0	0	0	1		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	R01	pending	6109	0	11	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	V04	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	B03	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	B04	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	C04	pending	2567	0	643	2910	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	C05	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	B05	not_applicable	0	0	0	0		
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X01	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X02	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X03	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X04	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X05	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X06	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X07	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	X08	pass	6120	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	G01	pass	1	0	0	0	0.0000	
+ULF_sample_lj7rg82ela	ulf_timeseries	accept_with_marks	100.0	U01	pending	0	0	1	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S01	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S02	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S03	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S04	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S05	pending	5477	0	643	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	S06	fail	2527	40	643	2910	0.0156	事件类型汇总与事件明细不一致
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	P01	fail	6095	25	0	0	0.0041	标签引用的数据文件不存在：找不到数据文件
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	P02	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	P03	pass	6095	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	P04	not_applicable	0	0	0	1		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	V01	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	V02	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	V03	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	C01	fail	6103	17	0	0	0.0028	类别不在声明的类别表内
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	C02	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	C03	pending	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	M01	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	M02	pending	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	M03	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	B01	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	B02	pending	5713	0	407	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	N01	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	N02	pending	4869	0	1251	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	N03	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	D01	fail	3047	1834	1239	0	0.3757	声明时长与起止时刻不符
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	D02	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	D03	fail	5351	769	0	0	0.1257	声明的起止时刻与观测时刻 dateObs 不一致（时段起止被改动）
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	D04	not_applicable	0	0	0	1		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	R01	pending	6088	0	7	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	V04	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	B03	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	B04	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	C04	fail	2527	40	643	2910	0.0156	事件类型与来源目录不一致（类别错标）
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	C05	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	B05	not_applicable	0	0	0	0		
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X01	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X02	pending	4881	0	1214	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X03	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X04	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X05	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X06	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X07	fail	5213	907	0	0	0.1482	声明字段与参考版本不一致
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	X08	pass	6120	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	G01	pass	1	0	0	0	0.0000	
+ULF_sample_mf2qi10pd4	ulf_timeseries	reject	96.28686	U01	pending	0	0	1	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S01	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S02	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S03	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S04	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S05	pending	5477	0	643	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	S06	fail	2556	11	643	2910	0.0043	事件类型汇总与事件明细不一致
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	P01	fail	6103	17	0	0	0.0028	标签引用的数据文件不存在：找不到数据文件
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	P02	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	P03	pass	6103	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	P04	not_applicable	0	0	0	1		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	V01	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	V02	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	V03	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	C01	fail	6113	7	0	0	0.0011	类别不在声明的类别表内
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	C02	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	C03	pending	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	M01	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	M02	pending	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	M03	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	B01	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	B02	pending	5687	0	433	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	N01	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	N02	pending	4875	0	1245	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	N03	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	D01	fail	5174	583	363	0	0.1013	声明时长与起止时刻不符
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	D02	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	D03	fail	5844	276	0	0	0.0451	声明的起止时刻与观测时刻 dateObs 不一致（时段起止被改动）
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	D04	not_applicable	0	0	0	1		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	R01	pending	6093	0	10	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	V04	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	B03	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	B04	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	C04	fail	2556	11	643	2910	0.0043	事件类型与来源目录不一致（类别错标）
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	C05	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	B05	not_applicable	0	0	0	0		
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X01	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X02	pending	5792	0	311	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X03	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X04	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X05	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X06	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X07	fail	5759	361	0	0	0.0590	声明字段与参考版本不一致
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	X08	pass	6120	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	G01	pass	1	0	0	0	0.0000	
+ULF_sample_n4wb7i9z75	ulf_timeseries	reject	98.720247	U01	pending	0	0	1	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S01	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S02	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S03	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S04	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S05	pending	5477	0	643	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	S06	fail	2528	39	643	2910	0.0152	事件类型汇总与事件明细不一致
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	P01	fail	6063	57	0	0	0.0093	标签引用的数据文件不存在：找不到数据文件
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	P02	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	P03	pass	6063	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	P04	not_applicable	0	0	0	1		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	V01	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	V02	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	V03	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	C01	fail	6102	18	0	0	0.0029	类别不在声明的类别表内
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	C02	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	C03	pending	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	M01	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	M02	pending	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	M03	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	B01	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	B02	pending	5737	0	383	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	N01	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	N02	pending	4843	0	1277	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	N03	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	D01	fail	1192	2436	2492	0	0.6714	采样率 × 时长与声明点数不符
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	D02	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	D03	fail	5240	880	0	0	0.1438	声明的起止时刻与观测时刻 dateObs 不一致（时段起止被改动）
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	D04	not_applicable	0	0	0	1		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	R01	pending	6059	0	4	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	V04	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	B03	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	B04	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	C04	fail	2528	39	643	2910	0.0152	事件类型与来源目录不一致（类别错标）
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	C05	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	B05	not_applicable	0	0	0	0		
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X01	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X02	pending	3628	0	2435	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X03	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X04	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X05	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X06	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X07	fail	5113	1007	0	0	0.1645	声明字段与参考版本不一致
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	X08	pass	6120	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	G01	pass	1	0	0	0	0.0000	
+ULF_sample_pmsjn7a72e	ulf_timeseries	reject	95.156324	U01	pending	0	0	1	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S01	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S02	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S03	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S04	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S05	pending	5477	0	643	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	S06	fail	2542	25	643	2910	0.0097	事件类型汇总与事件明细不一致
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	P01	fail	6034	86	0	0	0.0141	标签引用的数据文件不存在：找不到数据文件
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	P02	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	P03	pass	6034	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	P04	not_applicable	0	0	0	1		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	V01	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	V02	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	V03	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	C01	fail	6104	16	0	0	0.0026	类别不在声明的类别表内
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	C02	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	C03	pending	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	M01	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	M02	pending	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	M03	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	B01	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	B02	pending	5746	0	374	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	N01	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	N02	pending	4818	0	1302	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	N03	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	D01	fail	498	3135	2487	0	0.8629	采样率 × 时长与声明点数不符
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	D02	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	D03	fail	5272	848	0	0	0.1386	声明的起止时刻与观测时刻 dateObs 不一致（时段起止被改动）
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	D04	not_applicable	0	0	0	1		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	R01	pending	6027	0	7	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	V04	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	B03	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	B04	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	C04	fail	2542	25	643	2910	0.0097	事件类型与来源目录不一致（类别错标）
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	C05	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	B05	not_applicable	0	0	0	0		
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X01	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X02	pending	3633	0	2401	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X03	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X04	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X05	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X06	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X07	fail	5198	922	0	0	0.1507	声明字段与参考版本不一致
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	X08	pass	6120	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	G01	pass	1	0	0	0	0.0000	
+ULF_sample_tsp8ilm7h4	ulf_timeseries	reject	94.079469	U01	pending	0	0	1	0		

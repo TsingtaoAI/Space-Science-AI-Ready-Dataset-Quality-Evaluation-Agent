@@ -1,0 +1,94 @@
+{
+    "label_header": {
+        "fileName": "SSUSIF16_2013335R52223_LBHL.json",
+        "labelCreateTime": "2026-05-19T10:30:00Z",
+        "labelAuthor": "yanglu",
+        "labelVersion": "1.0.0.0",
+        "repositoryName": "Chinese National Space Science Data Center",
+        "repositoryEmail": "nssdc_service@nssc.ac.cn",
+        "annotationMethod": [
+            "semi-auto"
+        ],
+        "softwareName": "SpaceAI-autorPCA",
+        "softwareVersion": "1.0.0"
+    },
+    "basic_annotation": {
+        "fileName": "SSUSIF16_2013335R52223_LBHL.png",
+        "relativePath": "/DMSP/SSUSI/DATA_V0/",
+        "modality": [
+            "image"
+        ],
+        "fileFormat": "PNG",
+        "startTime": "2013-12-01T00:00:00Z",
+        "endTime": "2013-12-01T23:59:59Z",
+        "project": "The Defense Meteorological Satellites Program (DMSP)",
+        "observatoryType": [
+            "Satellite"
+        ],
+        "observatoryName": "DMSP",
+        "observationObject": "Earth",
+        "altitude": "850km",
+        "observationMode": "Normal",
+        "observationDescription": "Remotely sense the Earth upper atmospheric and polar region",
+        "wavelength": "LHBL",
+        "imageHeight": 350,
+        "imageWidth": 390,
+        "orbitType": "LEO"
+    },
+    "science_annotation": {
+        "specialShapes": [
+            {
+                "label": "PCA",
+                "points": [
+                    [
+                        204.6426735218509,
+                        234.4473007712082
+                    ],
+                    [
+                        192.04627249357327,
+                        151.92802056555269
+                    ]
+                ],
+                "group_id": null,
+                "shape_type": "rectangle",
+                "flags": {}
+            },
+            {
+                "label": "TPA",
+                "points": [
+                    [
+                        254.0,
+                        228.02056555269922
+                    ],
+                    [
+                        219.55269922879177,
+                        149.8714652956298
+                    ]
+                ],
+                "group_id": null,
+                "shape_type": "rectangle",
+                "flags": {}
+            },
+            {
+                "label": "PCA",
+                "points": [
+                    [
+                        149.88688946015424,
+                        180.46272493573264
+                    ],
+                    [
+                        183.30591259640101,
+                        138.04627249357327
+                    ]
+                ],
+                "group_id": null,
+                "shape_type": "rectangle",
+                "flags": {}
+            }
+        ],
+        "qualityLevel": "GOOD"
+    },
+    "extension_annotation": {
+        "note": "This annotation file was generated semi-automatically using SpaceAI-autoPCA v1.0.0 and validated by a domain expert. Some region boundaries have been manually refined."
+    }
+}

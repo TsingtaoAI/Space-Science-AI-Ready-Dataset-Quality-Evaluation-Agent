@@ -1,0 +1,25 @@
+# 由 tools/gen_agent_registry.py 依据 spec/quality_spec.yaml 与检查器注册表生成，请勿手改
+plugins:
+- name: checker_registry
+  version: 0.8.0
+  extensionPoint: 工具位：@check(编号) 装饰器 + 规格中同编号条目
+  capability: 新增检查器：在 src/sqa/checks/ 写实现、在规格中声明同一编号，启动校验通过即生效
+  enabledByDefault: true
+  dependsOn: []
+  conflictsWith: []
+- name: profile_definitions
+  version: 0.8.0
+  extensionPoint: 决策点：标注族识别
+  capability: 新数据类型：在规格 profiles 中声明识别字段、元素路径、类别词表即可复用全部通用检查
+  enabledByDefault: true
+  dependsOn:
+  - checker_registry
+  conflictsWith: []
+- name: llm_client
+  version: 0.8.0
+  extensionPoint: 子代理位：模型服务客户端（OpenAI 兼容）
+  capability: --use-llm 时按环境变量连接评测平台提供的模型服务，供 doc_claim_extractor 与 remediation_writer 使用，逐次计量消耗；默认关闭
+  enabledByDefault: false
+  dependsOn: []
+  conflictsWith: []
+loading: 全部随镜像交付，运行时不从外部加载任何插件

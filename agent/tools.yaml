@@ -1,0 +1,439 @@
+# 由 tools/gen_agent_registry.py 依据 spec/quality_spec.yaml 与检查器注册表生成，请勿手改
+tools:
+- name: sqa.checks.structure
+  title: 标注结构检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/structure.py，由编排层按检查编号调用）
+  purpose: 严格解析标签、识别标注族、校验必填字段与同批结构、事件计数与类型汇总
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - S01
+  - S02
+  - S03
+  - S04
+  - S05
+  - S06
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.pairing
+  title: 文件配对检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/pairing.py，由编排层按检查编号调用）
+  purpose: 标签与数据文件一一对应、引用文件名一致
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - P01
+  - P02
+  - P03
+  - P04
+  scope:
+  - dataset
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.values
+  title: 标注数值合法性检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/values.py，由编排层按检查编号调用）
+  purpose: 时刻可解析且有序、几何合法、物理量在合法范围内
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - V01
+  - V02
+  - V03
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.categories
+  title: 类别检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/categories.py，由编排层按检查编号调用）
+  purpose: 类别在声明类别表内、事件类型代码与概念名一致、ULF 事件类型与来源目录一致
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - C01
+  - C02
+  - M01
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.identity
+  title: 虚构标注检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/identity.py，由编排层按检查编号调用）
+  purpose: 事件身份标识与同批主流格式一致、同一标注内无平移缩放的复制多边形（疑似虚构标注）
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - M03
+  - M04
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.boundary
+  title: 边界检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/boundary.py，由编排层按检查编号调用）
+  purpose: 几何落在图像范围内、事件时段与观测时刻相容
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - B01
+  - B02
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.numeric
+  title: 数值完好检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/numeric.py，由编排层按检查编号调用）
+  purpose: 标注数值统计离群、时序数据数值完好、图像文件完好
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - N01
+  - N02
+  - N03
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.docs
+  title: 文档一致性检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/docs.py，由编排层按检查编号调用）
+  purpose: 时序声明自洽、声明的图像尺寸与文件一致、格式 / 模态 / 观测时刻一致
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - D01
+  - D02
+  - D03
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.docclaims
+  title: 说明文档声明比对器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/docclaims.py，由编排层按检查编号调用）
+  purpose: 把子代理从说明文档抽取的声明与数据实际情况逐项比对（样本数、类别、时段、尺寸、模态）
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: null
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - D04
+  scope:
+  - dataset
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.duplicates
+  title: 重复样本检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/duplicates.py，由编排层按检查编号调用）
+  purpose: 数据文件内容重复
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: null
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - R01
+  scope:
+  - dataset
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.physics
+  title: 物理一致性检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/physics.py，由编排层按检查编号调用）
+  purpose: CME 动能自洽、目标中心位于日面内、目标框面积与像素数相符
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: 单条标签记录（scope=record 时）
+    group: null
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - V04
+  - B03
+  - B04
+  - C04
+  scope:
+  - record
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.consistency
+  title: 跨样本一致性检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/consistency.py，由编排层按检查编号调用）
+  purpose: 同一事件在不同样本中的类别与时刻一致、类别与数据集定位相符（无同源版本时运行）
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: null
+    group: 同源质量版本组的比较结果（scope=group 时）
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - C05
+  - C06
+  - B05
+  scope:
+  - group
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.crossvariant
+  title: 质量版本对照工具
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/crossvariant.py，由编排层按检查编号调用）
+  purpose: 同源质量版本之间逐样本、逐元素比较，判出缺失、改动、错标、漏标、虚标、偏移
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: null
+    group: 同源质量版本组的比较结果（scope=group 时）
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - X01
+  - X02
+  - X03
+  - X04
+  - X05
+  - X06
+  - X07
+  - X08
+  scope:
+  - group
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.checks.coverage
+  title: 覆盖与分布检查器
+  version: 0.9.0
+  entry: python -m sqa run（镜像 /app/src/sqa/checks/coverage.py，由编排层按检查编号调用）
+  purpose: 类别分布与同源版本参考分布一致；使用权限与用途说明
+  inputSchema:
+    dataset: DatasetContext：数据集根目录、标签记录、数据文件清单、已解析标签与前置检查结论
+    record: null
+    group: 同源质量版本组的比较结果（scope=group 时）
+  outputSchema: 每个单元一条结论：unit、status（通过/不通过/待判定/不适用）、findings[location, message, evidence]
+  timeout: 不单设；整次运行受评测端单数据集 3 小时上限约束（公开集全量实测约 12 分钟）
+  retryLimit: 1
+  failureModes:
+  - 检查器抛出异常：按 retryLimit 重试，仍失败则该单元落待判定并记运行日志（不记为不适用）
+  - 前置检查未通过：不执行，落待判定并写明先修复的检查
+  checkIds:
+  - G01
+  - U01
+  scope:
+  - dataset
+  - group
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.dataset
+  title: 数据集识别与加载
+  version: 0.9.0
+  entry: python -m sqa run
+  purpose: 识别数据集目录、配对标签与数据文件
+  inputSchema: 上一步的结构化结果
+  outputSchema: 见 deliver 模块说明
+  timeout: 不单设
+  retryLimit: 0
+  failureModes:
+  - 覆盖率不变量被破坏（K ≤ N ≤ M）时终止运行，退出码 4
+  checkIds: []
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.materials.inventory
+  title: 文件清单
+  version: 0.9.0
+  entry: python -m sqa run
+  purpose: 生成文件清单与数据集版本（校验值）
+  inputSchema: 上一步的结构化结果
+  outputSchema: 见 deliver 模块说明
+  timeout: 不单设
+  retryLimit: 0
+  failureModes:
+  - 覆盖率不变量被破坏（K ≤ N ≤ M）时终止运行，退出码 4
+  checkIds: []
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.report
+  title: 汇总与评分
+  version: 0.9.0
+  entry: python -m sqa run
+  purpose: 按规格公式计算缺陷程度、维度分、综合分、等级、全局与组内排序
+  inputSchema: 上一步的结构化结果
+  outputSchema: 见 deliver 模块说明
+  timeout: 不单设
+  retryLimit: 0
+  failureModes:
+  - 覆盖率不变量被破坏（K ≤ N ≤ M）时终止运行，退出码 4
+  checkIds: []
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要
+- name: sqa.deliver
+  title: 交付物输出
+  version: 0.9.0
+  entry: python -m sqa run
+  purpose: 按交付材料清单输出评分卡、排序表、问题清单、证据索引、运行日志
+  inputSchema: 上一步的结构化结果
+  outputSchema: 见 deliver 模块说明
+  timeout: 不单设
+  retryLimit: 0
+  failureModes:
+  - 覆盖率不变量被破坏（K ≤ N ≤ M）时终止运行，退出码 4
+  checkIds: []
+  deterministic: true
+  resources:
+    cpu: 单进程
+    accelerator: 不需要
+    network: 不需要

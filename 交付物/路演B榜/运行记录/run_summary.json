@@ -1,0 +1,53 @@
+{
+  "agent_version": "0.9.0",
+  "rule_version": "0.9.0",
+  "runId": "run-133c277f20f9e7cb",
+  "python": "3.11.9",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.36",
+  "random_seed": 0,
+  "datasets": [
+    "AIA_AR_sample_3mogtggl50",
+    "AIA_AR_sample_7qn2pdeube",
+    "AIA_AR_sample_p86y2cz08y",
+    "AIA_AR_sample_z4h764sf2d",
+    "EPB_seg_sample_fbbqy66u2d",
+    "EPB_seg_sample_mc4t7fou91",
+    "EPB_seg_sample_qmn05l7r91",
+    "EPB_seg_sample_z443g9dgh7",
+    "ULF_sample_09b7y3z4hn",
+    "ULF_sample_0yu0mc7d5a",
+    "ULF_sample_ta382376ar",
+    "ULF_sample_xfnogkdey9"
+  ],
+  "seconds_by_dataset": {
+    "ULF_sample_09b7y3z4hn": 40.713,
+    "ULF_sample_0yu0mc7d5a": 40.362,
+    "ULF_sample_ta382376ar": 39.012,
+    "ULF_sample_xfnogkdey9": 41.266,
+    "AIA_AR_sample_3mogtggl50": 4.936,
+    "AIA_AR_sample_7qn2pdeube": 4.968,
+    "AIA_AR_sample_p86y2cz08y": 5.783,
+    "AIA_AR_sample_z4h764sf2d": 5.008,
+    "EPB_seg_sample_fbbqy66u2d": 2.806,
+    "EPB_seg_sample_qmn05l7r91": 2.513,
+    "EPB_seg_sample_mc4t7fou91": 2.7,
+    "EPB_seg_sample_z443g9dgh7": 2.793,
+    "_variant_comparison": 3.001
+  },
+  "execution_failures": 0,
+  "workers": 12,
+  "available_cpus": 180,
+  "llm_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "calls": 0
+  },
+  "seconds_total": 53.317,
+  "resources": {
+    "peak_rss_mb": 245.9,
+    "peak_rss_mb_largest_worker": 292.7,
+    "cpu_user_s": 245.5,
+    "cpu_system_s": 42.0,
+    "accelerator": "未使用"
+  }
+}

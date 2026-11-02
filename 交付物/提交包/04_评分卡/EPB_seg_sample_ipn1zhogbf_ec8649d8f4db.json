@@ -1,0 +1,560 @@
+{
+  "datasetId": "EPB_seg_sample_ipn1zhogbf",
+  "datasetVersion": "ec8649d8f4dbc0da7453b7eb883df7ad1ae9e3a708cdab5ea392f88efeceb184",
+  "declaredUsage": "入库",
+  "ruleVersion": "0.8.0",
+  "specVersion": "空间科学智能就绪数据集质量判定标准 0.8.0（sha256 3461771dde80ec26）",
+  "runId": "run-63be27edc261216a",
+  "profile": "气辉图像 · 等离子体泡分割（EPB）",
+  "compositeScore": 99.260228,
+  "grade": {
+    "id": "medium",
+    "zh": "中",
+    "provisional": true,
+    "note": "暂定：未获取档位标签文件，阈值未经标定"
+  },
+  "verdict": {
+    "id": "reject",
+    "zh": "拒绝入库",
+    "action": "整改后重新提交",
+    "basis_checks": [
+      "P01",
+      "X05",
+      "X06"
+    ]
+  },
+  "qualityPrediction": {
+    "estimatedDefectCoverage": 0.067407,
+    "affectedSamples": 91,
+    "samples": 1350,
+    "predictedTier": "P1",
+    "tierAnchors": {
+      "clean": 0.0,
+      "P1": 0.05,
+      "P2": 0.2,
+      "P3": 0.4,
+      "P4": 0.6
+    },
+    "method": "组内名次对应档位（同源版本数与档位数相同）",
+    "coverageDefinition": "至少有一条计分轨「不通过」结论的样本数 / 样本数（评分标准附件一 A2 的档位锚点）"
+  },
+  "dimensions": [
+    {
+      "dimId": "completeness",
+      "name": "完整性",
+      "score": 99.51112,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "文件存在性、数据完好：缺失、损坏与内容改动越少得分越高",
+      "weight": 3,
+      "measures": [
+        "missing_ratio",
+        "corrupt_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "annotation",
+      "name": "标注质量",
+      "score": 99.154707,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "类别正确、无漏标虚标、边界与位置准确、数值未被扰动",
+      "weight": 3,
+      "measures": [
+        "mislabel_ratio",
+        "omission_ratio",
+        "spurious_ratio",
+        "offset_ratio",
+        "perturbation_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "correspondence",
+      "name": "样本对应关系",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "标签与数据一一对应、结构自洽、无重复样本",
+      "weight": 2,
+      "measures": [
+        "structure_ratio",
+        "duplicate_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "coverage",
+      "name": "覆盖与分布",
+      "score": 97.9381,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "类别分布与同源版本参考分布一致",
+      "weight": 1,
+      "measures": [
+        "distribution_shift"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "provenance",
+      "name": "文档与来源追溯",
+      "score": 98.6667,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "声明的格式、尺寸、时刻、参数与数据内容一致",
+      "weight": 1,
+      "measures": [
+        "doc_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "usage",
+      "name": "使用条件",
+      "score": null,
+      "range": "0-100",
+      "grade": "证据不足",
+      "meaning": "具备使用权限、许可与用途说明",
+      "weight": 1,
+      "measures": [
+        "usage_info"
+      ],
+      "status": "证据不足"
+    }
+  ],
+  "coverage": {
+    "completed": 28,
+    "applicable": 28,
+    "ratio": 1.0,
+    "statement": "已检 28 项 / 适用 28 项 / 检出 6 项"
+  },
+  "checkStatusSummary": {
+    "通过": 18,
+    "不通过": 6,
+    "待判定": 4,
+    "不适用": 17
+  },
+  "defectMeasures": {
+    "missing_ratio": {
+      "name": "缺失比例",
+      "numerator": 11,
+      "denominator": 1350,
+      "ratio": 0.008148,
+      "definition": "无数据文件的标签 + 相对同源版本整体缺失的样本 + 文件清单列出而缺失的文件 / 参考样本数（无同源版本时为标签数）"
+    },
+    "corrupt_ratio": {
+      "name": "损坏与数据改动比例",
+      "numerator": 0,
+      "denominator": 1339,
+      "ratio": 0.0,
+      "definition": "损坏或内容被改动的数据文件 / 数据文件数"
+    },
+    "mislabel_ratio": {
+      "name": "错标比例",
+      "numerator": 28,
+      "denominator": 1343,
+      "ratio": 0.020849,
+      "definition": "类别错误的标注元素 / 参考标注元素数"
+    },
+    "perturbation_ratio": {
+      "name": "标注数值扰动比例",
+      "numerator": 0,
+      "denominator": 1343,
+      "ratio": 0.0,
+      "definition": "数值属性被扰动的标注元素 / 参考标注元素数"
+    },
+    "omission_ratio": {
+      "name": "漏标比例",
+      "numerator": 0,
+      "denominator": 1343,
+      "ratio": 0.0,
+      "definition": "漏标元素 / 参考标注元素数"
+    },
+    "spurious_ratio": {
+      "name": "虚标比例",
+      "numerator": 15,
+      "denominator": 1358,
+      "ratio": 0.011046,
+      "definition": "虚标元素 / 本版本标注元素数"
+    },
+    "offset_ratio": {
+      "name": "位置/边界偏移比例",
+      "numerator": 20,
+      "denominator": 1343,
+      "ratio": 0.014892,
+      "definition": "发生偏移的元素 / 参考中有几何或时间的元素数"
+    },
+    "duplicate_ratio": {
+      "name": "重复比例",
+      "numerator": 0,
+      "denominator": 1350,
+      "ratio": 0.0,
+      "definition": "内容重复的数据文件 / 样本数"
+    },
+    "structure_ratio": {
+      "name": "结构与引用错误比例",
+      "numerator": 0,
+      "denominator": 1350,
+      "ratio": 0.0,
+      "definition": "结构不自洽或引用错误的标签 / 标签数"
+    },
+    "doc_ratio": {
+      "name": "文档与内容不一致比例",
+      "numerator": 18,
+      "denominator": 1350,
+      "ratio": 0.013333,
+      "definition": "声明与内容或同源版本不符的标签 / 标签数"
+    },
+    "distribution_shift": {
+      "name": "类别分布偏移",
+      "numerator": 0.020619,
+      "denominator": 1,
+      "ratio": 0.020619,
+      "definition": "本版本与参考类别直方图的总变差距离 / 1（距离本身在 [0,1]）"
+    },
+    "usage_info": {
+      "name": "使用条件缺失",
+      "numerator": null,
+      "denominator": null,
+      "ratio": null,
+      "definition": "U01 不通过记 1，通过记 0 / 1",
+      "notComputableReason": "证据不足（相关检查待判定）"
+    }
+  },
+  "topDefects": [
+    {
+      "checkId": "C01",
+      "defectType": "L2-P",
+      "defectTypeZh": "类别标注错误",
+      "count": 28,
+      "findingIds": [
+        "C01-EPB_seg_sample_ipn1zhogbf-000001",
+        "C01-EPB_seg_sample_ipn1zhogbf-000002",
+        "C01-EPB_seg_sample_ipn1zhogbf-000003",
+        "C01-EPB_seg_sample_ipn1zhogbf-000004",
+        "C01-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "28 处，涉及 标注质量维度",
+      "remediation": "将词表外类别映射到声明类别表，或在标注定义中补充该类别"
+    },
+    {
+      "checkId": "X06",
+      "defectType": "L2-G",
+      "defectTypeZh": "边界与位置偏差",
+      "count": 20,
+      "findingIds": [
+        "X06-EPB_seg_sample_ipn1zhogbf-000001",
+        "X06-EPB_seg_sample_ipn1zhogbf-000002",
+        "X06-EPB_seg_sample_ipn1zhogbf-000003",
+        "X06-EPB_seg_sample_ipn1zhogbf-000004",
+        "X06-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "20 处，涉及 标注质量维度",
+      "remediation": "按参考版本修正框、分割或事件时段的位置"
+    },
+    {
+      "checkId": "D02",
+      "defectType": "L2-F",
+      "defectTypeZh": "元数据尺寸矛盾",
+      "count": 18,
+      "findingIds": [
+        "D02-EPB_seg_sample_ipn1zhogbf-000001",
+        "D02-EPB_seg_sample_ipn1zhogbf-000003",
+        "D02-EPB_seg_sample_ipn1zhogbf-000004",
+        "D02-EPB_seg_sample_ipn1zhogbf-000006",
+        "D02-EPB_seg_sample_ipn1zhogbf-000007"
+      ],
+      "impact": "18 处，涉及 文档与来源追溯维度",
+      "remediation": "按图像实际尺寸修正声明宽高"
+    },
+    {
+      "checkId": "X05",
+      "defectType": "L3-07",
+      "defectTypeZh": "虚标",
+      "count": 15,
+      "findingIds": [
+        "X05-EPB_seg_sample_ipn1zhogbf-000001",
+        "X05-EPB_seg_sample_ipn1zhogbf-000002",
+        "X05-EPB_seg_sample_ipn1zhogbf-000003",
+        "X05-EPB_seg_sample_ipn1zhogbf-000004",
+        "X05-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "15 处，涉及 标注质量维度",
+      "remediation": "删除多余标注，或提供该目标存在的依据"
+    },
+    {
+      "checkId": "P01",
+      "defectType": "L0-01",
+      "defectTypeZh": "数据文件缺失",
+      "count": 11,
+      "findingIds": [
+        "P01-EPB_seg_sample_ipn1zhogbf-000001",
+        "P01-EPB_seg_sample_ipn1zhogbf-000002",
+        "P01-EPB_seg_sample_ipn1zhogbf-000003",
+        "P01-EPB_seg_sample_ipn1zhogbf-000004",
+        "P01-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "11 处，涉及 完整性维度",
+      "remediation": "补传缺失的数据文件，或删除无数据对应的标签"
+    },
+    {
+      "checkId": "G01",
+      "defectType": "E-COV",
+      "defectTypeZh": "类别分布偏移",
+      "count": 1,
+      "findingIds": [
+        "G01-EPB_seg_sample_ipn1zhogbf-000001"
+      ],
+      "impact": "1 处，涉及 覆盖与分布维度",
+      "remediation": "检查类别分布偏移的来源（漏标、错标或样本删减），修正后重新统计"
+    }
+  ],
+  "criticalDefects": [
+    {
+      "checkId": "X06",
+      "defectType": "L2-G",
+      "defectTypeZh": "边界与位置偏差",
+      "count": 20,
+      "findingIds": [
+        "X06-EPB_seg_sample_ipn1zhogbf-000001",
+        "X06-EPB_seg_sample_ipn1zhogbf-000002",
+        "X06-EPB_seg_sample_ipn1zhogbf-000003",
+        "X06-EPB_seg_sample_ipn1zhogbf-000004",
+        "X06-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "20 处，涉及 标注质量维度",
+      "remediation": "按参考版本修正框、分割或事件时段的位置"
+    },
+    {
+      "checkId": "X05",
+      "defectType": "L3-07",
+      "defectTypeZh": "虚标",
+      "count": 15,
+      "findingIds": [
+        "X05-EPB_seg_sample_ipn1zhogbf-000001",
+        "X05-EPB_seg_sample_ipn1zhogbf-000002",
+        "X05-EPB_seg_sample_ipn1zhogbf-000003",
+        "X05-EPB_seg_sample_ipn1zhogbf-000004",
+        "X05-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "15 处，涉及 标注质量维度",
+      "remediation": "删除多余标注，或提供该目标存在的依据"
+    },
+    {
+      "checkId": "P01",
+      "defectType": "L0-01",
+      "defectTypeZh": "数据文件缺失",
+      "count": 11,
+      "findingIds": [
+        "P01-EPB_seg_sample_ipn1zhogbf-000001",
+        "P01-EPB_seg_sample_ipn1zhogbf-000002",
+        "P01-EPB_seg_sample_ipn1zhogbf-000003",
+        "P01-EPB_seg_sample_ipn1zhogbf-000004",
+        "P01-EPB_seg_sample_ipn1zhogbf-000005"
+      ],
+      "impact": "11 处，涉及 完整性维度",
+      "remediation": "补传缺失的数据文件，或删除无数据对应的标签"
+    }
+  ],
+  "keyDefectRule": "关键缺陷单独列示；关键缺陷比例超过等级上限时不得评为该等级，不能被其他维度高分抵消",
+  "uncomputableDimensions": [
+    {
+      "dimId": "usage",
+      "name": "使用条件",
+      "reason": "相关程度指标均不可计算（证据不足或检查不适用）"
+    }
+  ],
+  "reviewAndSupplement": [
+    {
+      "check_id": "C03",
+      "name": "类别与图像内容相符",
+      "units": 0,
+      "missing_materials": "各类别的判别依据（标注定义文档或参考模型）；需读图像本体",
+      "reason": "检查器尚未实现"
+    },
+    {
+      "check_id": "M02",
+      "name": "漏标与虚标（内容层面）",
+      "units": 0,
+      "missing_materials": "外部事件目录（HEK/LASCO CME 目录/台站事件表）作为对照依据",
+      "reason": "检查器尚未实现"
+    },
+    {
+      "check_id": "N03",
+      "name": "图像本体完好",
+      "units": 11,
+      "missing_materials": null,
+      "reason": null
+    },
+    {
+      "check_id": "U01",
+      "name": "使用权限与用途声明",
+      "units": 1,
+      "missing_materials": null,
+      "reason": null
+    }
+  ],
+  "evidenceRefs": [
+    "EV-S01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-S02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-S03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-S04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-S05-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-S06-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-P01-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-P02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-P03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-P04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-V01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-V02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-V03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000013",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000014",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000015",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000016",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000017",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000018",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000019",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000020",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000021",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000022",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000023",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000024",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000025",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000026",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000027",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000028",
+    "EV-C01-EPB_seg_sample_ipn1zhogbf-000029",
+    "EV-C02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-C03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-M01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-M02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-M03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-B01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-B02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-N01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-N02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-N03-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-D01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000013",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000014",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000015",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000016",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000017",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000018",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000019",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000020",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000021",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000022",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000023",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000024",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000025",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000026",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000027",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000028",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000029",
+    "EV-D02-EPB_seg_sample_ipn1zhogbf-000030",
+    "EV-D03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-D04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-R01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-V04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-B03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-B04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-C04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-C05-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-B05-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X02-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X03-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X04-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000013",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000014",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000015",
+    "EV-X05-EPB_seg_sample_ipn1zhogbf-000016",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000002",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000003",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000004",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000005",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000006",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000007",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000008",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000009",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000010",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000011",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000012",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000013",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000014",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000015",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000016",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000017",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000018",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000019",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000020",
+    "EV-X06-EPB_seg_sample_ipn1zhogbf-000021",
+    "EV-X07-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-X08-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-G01-EPB_seg_sample_ipn1zhogbf-000001",
+    "EV-U01-EPB_seg_sample_ipn1zhogbf-000001"
+  ]
+}

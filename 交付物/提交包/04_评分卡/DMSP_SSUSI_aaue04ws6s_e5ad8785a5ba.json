@@ -1,0 +1,302 @@
+{
+  "datasetId": "DMSP_SSUSI_aaue04ws6s",
+  "datasetVersion": "e5ad8785a5badcca88266ec42e9d0ad95c7e9f78ea9cf9df03b4d68d9bc8cb61",
+  "declaredUsage": "入库",
+  "ruleVersion": "0.8.0",
+  "specVersion": "空间科学智能就绪数据集质量判定标准 0.8.0（sha256 3461771dde80ec26）",
+  "runId": "run-63be27edc261216a",
+  "profile": "极光图像 · 矩形标注（DMSP SSUSI）",
+  "compositeScore": 100.0,
+  "grade": {
+    "id": "high",
+    "zh": "高",
+    "provisional": true,
+    "note": "暂定：未获取档位标签文件，阈值未经标定"
+  },
+  "verdict": {
+    "id": "accept_with_marks",
+    "zh": "标记后入库",
+    "action": "附判定记录入库",
+    "basis_checks": []
+  },
+  "qualityPrediction": {
+    "estimatedDefectCoverage": 0.0,
+    "affectedSamples": 0,
+    "samples": 286,
+    "predictedTier": "clean",
+    "tierAnchors": {
+      "clean": 0.0,
+      "P1": 0.05,
+      "P2": 0.2,
+      "P3": 0.4,
+      "P4": 0.6
+    },
+    "method": "组内名次对应档位（同源版本数与档位数相同）",
+    "coverageDefinition": "至少有一条计分轨「不通过」结论的样本数 / 样本数（评分标准附件一 A2 的档位锚点）"
+  },
+  "dimensions": [
+    {
+      "dimId": "completeness",
+      "name": "完整性",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "文件存在性、数据完好：缺失、损坏与内容改动越少得分越高",
+      "weight": 3,
+      "measures": [
+        "missing_ratio",
+        "corrupt_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "annotation",
+      "name": "标注质量",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "类别正确、无漏标虚标、边界与位置准确、数值未被扰动",
+      "weight": 3,
+      "measures": [
+        "mislabel_ratio",
+        "omission_ratio",
+        "spurious_ratio",
+        "offset_ratio",
+        "perturbation_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "correspondence",
+      "name": "样本对应关系",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "标签与数据一一对应、结构自洽、无重复样本",
+      "weight": 2,
+      "measures": [
+        "structure_ratio",
+        "duplicate_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "coverage",
+      "name": "覆盖与分布",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "类别分布与同源版本参考分布一致",
+      "weight": 1,
+      "measures": [
+        "distribution_shift"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "provenance",
+      "name": "文档与来源追溯",
+      "score": 100.0,
+      "range": "0-100",
+      "grade": "高",
+      "meaning": "声明的格式、尺寸、时刻、参数与数据内容一致",
+      "weight": 1,
+      "measures": [
+        "doc_ratio"
+      ],
+      "status": "已评分"
+    },
+    {
+      "dimId": "usage",
+      "name": "使用条件",
+      "score": null,
+      "range": "0-100",
+      "grade": "证据不足",
+      "meaning": "具备使用权限、许可与用途说明",
+      "weight": 1,
+      "measures": [
+        "usage_info"
+      ],
+      "status": "证据不足"
+    }
+  ],
+  "coverage": {
+    "completed": 28,
+    "applicable": 28,
+    "ratio": 1.0,
+    "statement": "已检 28 项 / 适用 28 项 / 检出 0 项"
+  },
+  "checkStatusSummary": {
+    "通过": 25,
+    "不通过": 0,
+    "待判定": 3,
+    "不适用": 17
+  },
+  "defectMeasures": {
+    "missing_ratio": {
+      "name": "缺失比例",
+      "numerator": 0,
+      "denominator": 286,
+      "ratio": 0.0,
+      "definition": "无数据文件的标签 + 相对同源版本整体缺失的样本 + 文件清单列出而缺失的文件 / 参考样本数（无同源版本时为标签数）"
+    },
+    "corrupt_ratio": {
+      "name": "损坏与数据改动比例",
+      "numerator": 0,
+      "denominator": 286,
+      "ratio": 0.0,
+      "definition": "损坏或内容被改动的数据文件 / 数据文件数"
+    },
+    "mislabel_ratio": {
+      "name": "错标比例",
+      "numerator": 0,
+      "denominator": 260,
+      "ratio": 0.0,
+      "definition": "类别错误的标注元素 / 参考标注元素数"
+    },
+    "perturbation_ratio": {
+      "name": "标注数值扰动比例",
+      "numerator": 0,
+      "denominator": 260,
+      "ratio": 0.0,
+      "definition": "数值属性被扰动的标注元素 / 参考标注元素数"
+    },
+    "omission_ratio": {
+      "name": "漏标比例",
+      "numerator": 0,
+      "denominator": 260,
+      "ratio": 0.0,
+      "definition": "漏标元素 / 参考标注元素数"
+    },
+    "spurious_ratio": {
+      "name": "虚标比例",
+      "numerator": 0,
+      "denominator": 260,
+      "ratio": 0.0,
+      "definition": "虚标元素 / 本版本标注元素数"
+    },
+    "offset_ratio": {
+      "name": "位置/边界偏移比例",
+      "numerator": 0,
+      "denominator": 260,
+      "ratio": 0.0,
+      "definition": "发生偏移的元素 / 参考中有几何或时间的元素数"
+    },
+    "duplicate_ratio": {
+      "name": "重复比例",
+      "numerator": 0,
+      "denominator": 286,
+      "ratio": 0.0,
+      "definition": "内容重复的数据文件 / 样本数"
+    },
+    "structure_ratio": {
+      "name": "结构与引用错误比例",
+      "numerator": 0,
+      "denominator": 286,
+      "ratio": 0.0,
+      "definition": "结构不自洽或引用错误的标签 / 标签数"
+    },
+    "doc_ratio": {
+      "name": "文档与内容不一致比例",
+      "numerator": 0,
+      "denominator": 286,
+      "ratio": 0.0,
+      "definition": "声明与内容或同源版本不符的标签 / 标签数"
+    },
+    "distribution_shift": {
+      "name": "类别分布偏移",
+      "numerator": 0.0,
+      "denominator": 1,
+      "ratio": 0.0,
+      "definition": "本版本与参考类别直方图的总变差距离 / 1（距离本身在 [0,1]）"
+    },
+    "usage_info": {
+      "name": "使用条件缺失",
+      "numerator": null,
+      "denominator": null,
+      "ratio": null,
+      "definition": "U01 不通过记 1，通过记 0 / 1",
+      "notComputableReason": "证据不足（相关检查待判定）"
+    }
+  },
+  "topDefects": [],
+  "criticalDefects": [],
+  "keyDefectRule": "关键缺陷单独列示；关键缺陷比例超过等级上限时不得评为该等级，不能被其他维度高分抵消",
+  "uncomputableDimensions": [
+    {
+      "dimId": "usage",
+      "name": "使用条件",
+      "reason": "相关程度指标均不可计算（证据不足或检查不适用）"
+    }
+  ],
+  "reviewAndSupplement": [
+    {
+      "check_id": "C03",
+      "name": "类别与图像内容相符",
+      "units": 0,
+      "missing_materials": "各类别的判别依据（标注定义文档或参考模型）；需读图像本体",
+      "reason": "检查器尚未实现"
+    },
+    {
+      "check_id": "M02",
+      "name": "漏标与虚标（内容层面）",
+      "units": 0,
+      "missing_materials": "外部事件目录（HEK/LASCO CME 目录/台站事件表）作为对照依据",
+      "reason": "检查器尚未实现"
+    },
+    {
+      "check_id": "U01",
+      "name": "使用权限与用途声明",
+      "units": 1,
+      "missing_materials": null,
+      "reason": null
+    }
+  ],
+  "evidenceRefs": [
+    "EV-S01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-S02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-S03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-S04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-S05-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-S06-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-P01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-P02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-P03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-P04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-V01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-V02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-V03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-C01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-C02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-C03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-M01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-M02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-M03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-B01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-B02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-N01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-N02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-N03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-D01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-D02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-D03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-D04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-R01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-V04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-B03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-B04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-C04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-C05-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-B05-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X02-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X03-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X04-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X05-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X06-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X07-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-X08-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-G01-DMSP_SSUSI_aaue04ws6s-000001",
+    "EV-U01-DMSP_SSUSI_aaue04ws6s-000001"
+  ]
+}

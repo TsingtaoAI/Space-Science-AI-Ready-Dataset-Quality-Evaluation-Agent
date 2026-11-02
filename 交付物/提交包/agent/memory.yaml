@@ -1,0 +1,24 @@
+# 由 tools/gen_agent_registry.py 依据 spec/quality_spec.yaml 与检查器注册表生成，请勿手改
+memory:
+- name: dataset_context
+  scope: 单次运行内 · 跨检查步骤（同一数据集）
+  storage: 进程内存（DatasetContext.parsed / outcomes / cache）
+  writeOn:
+  - 标签解析成功（S01）
+  - 每个检查得出逐单元结论
+  - 数据文件指纹、CSV 扫描、身份格式统计首次计算
+  readers:
+  - 编排层：按 depends_on 判断前置检查是否通过
+  - 检查器：复用已解析标签与扫描结果
+  consistency: 每个数据集一个上下文，单进程独占写入；结论只追加不改写（降级与弃报生成新结论并记事件）
+  crossRunPersistence: 无：运行结束即释放，不读取任何历史记忆；重复运行结果逐字节一致
+- name: variant_group_context
+  scope: 单次运行内 · 跨数据集（同一质量版本组）
+  storage: 进程内存（组比较结果 GroupResult）
+  writeOn:
+  - 组内逐样本比较完成
+  readers:
+  - 版本对照检查 X01～X08
+  consistency: 每组在一个进程内完成，组与组之间无共享状态
+  crossRunPersistence: 无
+rule: 记忆不是结论的来源：每条结论都能从问题清单回查到原始文件与证据

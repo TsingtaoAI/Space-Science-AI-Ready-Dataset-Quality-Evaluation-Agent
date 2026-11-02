@@ -1,0 +1,191 @@
+# 由 tools/gen_agent_registry.py 依据 spec/quality_spec.yaml 与检查器注册表生成，请勿手改
+rules:
+- id: R01
+  name: 触及受限边界转待判定
+  version: 0.8.0
+  type: must_flag_pending
+  trigger: 前置检查不通过或待判定；标注族识别不出；判定所需字段或材料缺失；同源版本少于 min_agree
+  constraint: 该单元落「待判定」并写明缺少的材料或先修复的检查，不得静默跳过
+  onViolation: 记录到问题清单与运行日志
+  checkIds: &id001
+  - S01
+  - S02
+  - S03
+  - S04
+  - S05
+  - S06
+  - P01
+  - P02
+  - P03
+  - P04
+  - V01
+  - V02
+  - V03
+  - C01
+  - C02
+  - C03
+  - M01
+  - M02
+  - M03
+  - B01
+  - B02
+  - N01
+  - N02
+  - N03
+  - D01
+  - D02
+  - D03
+  - D04
+  - R01
+  - V04
+  - B03
+  - B04
+  - C04
+  - C05
+  - B05
+  - X01
+  - X02
+  - X03
+  - X04
+  - X05
+  - X06
+  - X07
+  - X08
+  - G01
+  - U01
+- id: R02
+  name: 证据位置无法确定不得输出
+  version: 0.8.0
+  type: forbidden_output
+  trigger: 缺陷结论没有可回查的文件位置
+  constraint: 禁止输出该条「不通过」，改落「待判定」；只报类别不报位置的结论一律不输出
+  onViolation: 降级并记运行日志
+  checkIds: *id001
+- id: R03
+  name: 工具失败按上限重试
+  version: 0.8.0
+  type: must_retry
+  trigger: 检查器执行抛出异常
+  constraint: 最多重试 1 次；仍失败则该单元落「待判定」，不得改判为「不适用」
+  onViolation: 记「重试」「检查失败」「降级」事件
+  checkIds: *id001
+- id: R04
+  name: 未实现检查保留在分母
+  version: 0.8.0
+  type: must_flag_pending
+  trigger: '规格中 implemented: false 的适用检查'
+  constraint: 保留在检查完成度分母中，结论落「待判定」并写明所缺材料
+  onViolation: 启动校验规格与实现逐条对应，不一致拒绝运行（退出码 2）
+  checkIds:
+  - C03
+  - M02
+- id: R05
+  name: 不可重推项弃报
+  version: 0.8.0
+  type: forbidden_output
+  trigger: 结论的缺陷代码属于不可重推类（L2-A、L2-B、L2-C、L2-M、L1-TS），且不在该标注族的计分轨例外内
+  constraint: 不输出「不通过」，改落「待判定」并写明「本项判不了，需补充基准材料」与需补充的基准材料
+  onViolation: 降级并记运行日志「降级」事件
+  checkIds:
+  - B01
+  - B02
+  - B03
+  - B04
+  - B05
+  - C01
+  - C02
+  - C03
+  - C04
+  - C05
+  - D01
+  - D02
+  - D03
+  - D04
+  - G01
+  - M01
+  - M02
+  - M03
+  - N01
+  - N02
+  - N03
+  - P01
+  - P02
+  - P03
+  - P04
+  - R01
+  - S01
+  - S02
+  - S03
+  - S04
+  - S05
+  - S06
+  - U01
+  - V01
+  - V02
+  - V03
+  - V04
+  - X01
+  - X02
+  - X03
+  - X04
+  - X05
+  - X06
+  - X07
+  - X08
+- id: R06
+  name: 证据不足的维度不计分
+  version: 0.8.0
+  type: forbidden_output
+  trigger: 维度下没有可计算的程度指标；或指标的相关结论全部为不可重推弃报
+  constraint: 该维度记「证据不足」，不按 0 分或满分纳入综合分与排序
+  onViolation: 评分卡 uncomputableDimensions 列示
+  checkIds: []
+- id: R07
+  name: 覆盖率不变量
+  version: 0.8.0
+  type: must_stop
+  trigger: 检出项 K、已完成 N、适用 M 不满足 K ≤ N ≤ M
+  constraint: 终止运行，退出码 4
+  onViolation: 终止
+  checkIds: []
+- id: R08
+  name: 参考版本共有问题降级
+  version: 0.8.0
+  type: must_flag_pending
+  trigger: 同一样本在全部同源版本中都被同一检查判为不通过，或参考版本（质量序第一）同一位置同一判据也不通过
+  constraint: 降级为「待判定」，写明属来源固有问题
+  onViolation: 记入问题清单（待复核事项）
+  checkIds: *id001
+- id: R09
+  name: 排序不得并列
+  version: 0.8.0
+  type: forbidden_output
+  trigger: 两个数据集综合分相同
+  constraint: 依次比较关键缺陷单元数、最大单项比例、数据集标识，保证全局排序 1..n 连续
+  onViolation: —
+  checkIds: []
+- id: R10
+  name: 运行配额
+  version: 0.8.0
+  type: quota
+  trigger: 每次运行
+  constraint: 并行进程数 ≤ 容器可用 CPU 数；除评测平台注入的模型服务外不访问网络；默认不调用模型服务（消耗 0），--use-llm 时只由两个子代理调用；只写输出目录
+  onViolation: 超出即不启动对应进程
+  checkIds: []
+- id: R11
+  name: 模型配置缺失即停
+  version: 0.8.0
+  type: must_stop
+  trigger: 启用 --use-llm 但 LLM_BASE_URL / LLM_API_KEY / LLM_MODEL 缺失
+  constraint: 终止运行，退出码 5，不使用默认值
+  onViolation: 终止
+  checkIds: []
+- id: R12
+  name: 模型输出不得直接成为结论
+  version: 0.8.0
+  type: forbidden_output
+  trigger: 子代理返回结果
+  constraint: 抽取的声明须附逐字出现在文档中的原文摘录，否则丢弃；同一文档抽取 2 次只采用一致的声明，不一致落待判定；模型输出不进入计量、计分与排序
+  onViolation: 丢弃或降级为待判定，记运行日志
+  checkIds:
+  - D04

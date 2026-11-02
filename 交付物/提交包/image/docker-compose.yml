@@ -1,0 +1,10 @@
+# 离线运行：docker load -i image/<队伍代号>_image.tar 后执行 docker compose run --rm sqa-agent
+# DATA_DIR 为待评估数据目录（只读挂载），OUTPUT_DIR 为输出目录
+services:
+  sqa-agent:
+    image: sqa-agent:0.8.0
+    network_mode: "none"
+    volumes:
+      - "${DATA_DIR:-./data}:/data:ro"
+      - "${OUTPUT_DIR:-./output}:/output"
+    command: ["run", "--input", "/data", "--output", "/output"]

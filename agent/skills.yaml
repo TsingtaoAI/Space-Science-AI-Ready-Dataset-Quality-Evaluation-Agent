@@ -1,0 +1,268 @@
+# 由 tools/gen_agent_registry.py 依据 spec/quality_spec.yaml 与检查器注册表生成，请勿手改
+skills:
+- name: defect_taxonomy
+  title: 缺陷代码与计分轨划分
+  version: 0.9.0
+  appliesTo: 全部数据类型
+  knowledge: 缺陷代码与发榜方附件一的污染项目一一对齐；计分轨 / 不可重推 / 本规范补充三类；声明字段到缺陷代码的映射
+  specPaths:
+  - spec/quality_spec.yaml#defect_codes
+  - spec/quality_spec.yaml#field_defect_codes
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - S01
+  - S02
+  - S03
+  - S04
+  - S05
+  - S06
+  - P01
+  - P02
+  - P03
+  - P04
+  - V01
+  - V02
+  - V03
+  - C01
+  - C02
+  - C03
+  - M01
+  - M02
+  - M03
+  - M04
+  - B01
+  - B02
+  - N01
+  - N02
+  - N03
+  - D01
+  - D02
+  - D03
+  - D04
+  - R01
+  - V04
+  - B03
+  - B04
+  - C04
+  - C05
+  - C06
+  - B05
+  - X01
+  - X02
+  - X03
+  - X04
+  - X05
+  - X06
+  - X07
+  - X08
+  - G01
+  - U01
+- name: hek_event_conventions
+  title: HEK 事件标注约定
+  version: 0.9.0
+  appliesTo: 太阳图像 · HEK 事件
+  knowledge: 事件列表位置、计数与类型汇总字段、类型代码与概念名对照、身份字段、单一时刻事件
+  specPaths:
+  - spec/quality_spec.yaml#profiles.hek_image
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - S05
+  - S06
+  - C02
+  - M03
+- name: ulf_conventions
+  title: ULF 时序标注约定
+  version: 0.9.0
+  appliesTo: 地磁 ULF 时序
+  knowledge: 事件区间字段、类型词表、填充值与连续填充段判定
+  specPaths:
+  - spec/quality_spec.yaml#profiles.ulf_timeseries
+  - spec/quality_spec.yaml#timeseries
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - C01
+  - C04
+  - N02
+  - D01
+- name: shape_conventions
+  title: 极光与等离子体泡形状标注约定
+  version: 0.9.0
+  appliesTo: 极光图像 · 矩形；气辉图像 · 分割
+  knowledge: 形状列表位置、类别词表、图像尺寸声明字段
+  specPaths:
+  - spec/quality_spec.yaml#profiles.aurora_shapes
+  - spec/quality_spec.yaml#profiles.epb_segmentation
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - C01
+  - V02
+  - D02
+- name: required_fields
+  title: 必填字段与结构一致性
+  version: 0.9.0
+  appliesTo: 全部数据类型
+  knowledge: 赛题要求的必填字段及类型；同批出现比例达阈值的字段视为应有字段
+  specPaths:
+  - spec/quality_spec.yaml#required_fields
+  - spec/quality_spec.yaml#schema_conformity_ratio
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - S03
+  - S04
+- name: physical_ranges
+  title: 物理量合法范围
+  version: 0.9.0
+  appliesTo: 太阳图像、地磁时序
+  knowledge: 太阳视半径、日地距离、波长、CME 角度与速度、地磁分量等的合法取值
+  specPaths:
+  - spec/quality_spec.yaml#physical_ranges
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - V03
+  - N02
+- name: solar_physics
+  title: 太阳物理关系
+  version: 0.9.0
+  appliesTo: 太阳图像 · HEK 事件
+  knowledge: CME 动能 = ½·质量·速度² 的容差；日面边缘余量与像素尺度；目标框面积与像素数之比的合理范围
+  specPaths:
+  - spec/quality_spec.yaml#physics
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - V04
+  - B03
+  - B04
+- name: outlier_rule
+  title: 数值离群判据
+  version: 0.9.0
+  appliesTo: 太阳图像、地磁时序
+  knowledge: 稳健 z 分数阈值与最少样本数
+  specPaths:
+  - spec/quality_spec.yaml#outlier
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - N01
+- name: time_tolerance
+  title: 时刻容差
+  version: 0.9.0
+  appliesTo: 全部带时刻的数据
+  knowledge: 声明时刻之间、事件时段与观测时刻之间的容差
+  specPaths:
+  - spec/quality_spec.yaml#time_tolerance_s
+  - spec/quality_spec.yaml#profiles.hek_image.events.match_tolerance_s
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - B02
+  - D03
+  - V01
+- name: variant_comparison
+  title: 质量版本对照判据
+  version: 0.9.0
+  appliesTo: 有同源质量版本的数据集
+  knowledge: 同源版本分组、参考版本选择、元素匹配代价、未匹配元素配对、几何变化细分、严重度两轴
+  specPaths:
+  - spec/quality_spec.yaml#variants
+  - spec/quality_spec.yaml#severity_axes
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - X01
+  - X02
+  - X03
+  - X04
+  - X05
+  - X06
+  - X07
+  - X08
+- name: coverage_tolerance
+  title: 分布偏移容差
+  version: 0.9.0
+  appliesTo: 有同源质量版本的数据集
+  knowledge: 类别直方图总变差距离容差
+  specPaths:
+  - spec/quality_spec.yaml#coverage
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - G01
+- name: usage_documents
+  title: 使用条件文件识别
+  version: 0.9.0
+  appliesTo: 全部数据类型
+  knowledge: 识别使用权限、许可与用途说明文件的文件名模式
+  specPaths:
+  - spec/quality_spec.yaml#usage
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - U01
+- name: document_claims
+  title: 说明文档声明的比对口径
+  version: 0.9.0
+  appliesTo: 全部数据类型（有说明文档时）
+  knowledge: 可核对的声明类型、样本数与时段的容差、说明文档的识别模式
+  specPaths:
+  - spec/quality_spec.yaml#llm.claim_fields
+  - spec/quality_spec.yaml#llm.tolerances
+  - spec/quality_spec.yaml#llm.doc_globs
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - D04
+- name: model_prompts
+  title: 子代理提示词
+  version: 0.9.0
+  appliesTo: 全部数据类型（--use-llm 时）
+  knowledge: doc_claim_extractor 与 remediation_writer 的提示词：只抽取明确写出的声明并附原文、只改写整改表述不下结论
+  specPaths:
+  - spec/quality_spec.yaml#llm.prompts
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - D04
+- name: cross_sample_grouping
+  title: 同一事件的跨样本分组
+  version: 0.9.0
+  appliesTo: 太阳图像 · HEK 事件
+  knowledge: 同一 HEK 事件按身份标识分组、LASCO C2 帧按 image_time 成组（发榜方参考代码）；比较的类别与时刻字段、最少出现次数
+  specPaths:
+  - spec/quality_spec.yaml#cross_sample
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - C05
+  - B05
+- name: dataset_positioning
+  title: 数据集定位判据
+  version: 0.9.0
+  appliesTo: 太阳图像 · HEK 事件
+  knowledge: 数据集定位取占严格多数的类别；参与统计的类别字段、最少类别标注数、多数占比下限
+  specPaths:
+  - spec/quality_spec.yaml#positioning
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds:
+  - C06
+- name: scoring_rules
+  title: 汇总与评分规则
+  version: 0.9.0
+  appliesTo: 全部数据类型
+  knowledge: 缺陷程度指标的分子分母、维度与权重、综合分公式、等级阈值、档位锚点
+  specPaths:
+  - spec/quality_spec.yaml#measures
+  - spec/quality_spec.yaml#dimensions
+  - spec/quality_spec.yaml#scoring
+  - spec/quality_spec.yaml#grades
+  - spec/quality_spec.yaml#tier_anchors
+  ruleVersion: 0.9.0
+  entry: 显式调用：检查器按规格路径读取，无执行体
+  checkIds: []
