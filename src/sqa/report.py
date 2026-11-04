@@ -242,6 +242,13 @@ def quality(ctx: DatasetContext, results: list[CheckResult]) -> dict[str, Any]:
             "measures": ms, "by_category": rows}
 
 
+def _unit_missing_materials(r: CheckResult) -> str | None:
+    """检查级与规格都没写所缺材料时（如版本对照降级的待判定），取各待判定单元给出的所缺材料，去重后合并。"""
+    seen = [f.missing_materials for o in r.outcomes if o.status == Status.PENDING
+            for f in o.findings if f.kind == "pending" and f.missing_materials]
+    return "；".join(dict.fromkeys(seen)) or None
+
+
 def scorecard(ctx: DatasetContext, results: list[CheckResult], q: dict[str, Any], cov: dict[str, Any]) -> dict[str, Any]:
     """评分卡：各维度得分、检查覆盖、主要缺陷及影响、整改建议、未完成事项。"""
     spec = ctx.spec
@@ -256,7 +263,8 @@ def scorecard(ctx: DatasetContext, results: list[CheckResult], q: dict[str, Any]
     rank = {"critical": 0, "major": 1, "minor": 2}
     issues.sort(key=lambda x: (rank[x["severity"]], -x["affected_units"], x["check_id"]))
     review = [{"check_id": r.check_id, "name": spec.check(r.check_id).name, "units": len(r.units(Status.PENDING)),
-               "missing_materials": r.missing_materials or spec.check(r.check_id).missing_materials,
+               "missing_materials": (r.missing_materials or spec.check(r.check_id).missing_materials
+                                     or _unit_missing_materials(r)),
                "reason": r.reason}
               for r in results if r.status == Status.PENDING]
     return {

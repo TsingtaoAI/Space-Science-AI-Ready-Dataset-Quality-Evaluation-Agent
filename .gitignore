@@ -1,0 +1,17 @@
+# 系统与缓存
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 可由 tools/build_submission.py 重新生成的提交包（434 MB）
+交付物/提交包/
+
+# 镜像与大文件
+*.tar
+*.tar.gz
+*.mp4
+
+# 发榜方参考代码，不是本队代码
+OPC-code/

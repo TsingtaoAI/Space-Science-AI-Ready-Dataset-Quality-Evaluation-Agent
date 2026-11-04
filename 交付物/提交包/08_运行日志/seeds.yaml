@@ -1,4 +1,0 @@
-runId: run-63be27edc261216a
-globalSeed: 0
-samplingSeed: null
-note: 判定全程确定性，不使用随机数；不抽样（证据链全量保留）。种子仍按审计要求声明
